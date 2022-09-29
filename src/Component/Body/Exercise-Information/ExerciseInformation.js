@@ -3,6 +3,7 @@ import Exercise from './Exercise/Exercise';
 import Information from './Information/Information';
 import "./ExerciseInformation.css"
 import Blog from './Blog/Blog';
+import { getFromLocal } from '../../Utilities/LocalStorage';
 
 const ExerciseList = () => {
     const [exercises, setExercises] = useState([]);

@@ -3,7 +3,7 @@ import PersonInfo from './PersonInfo/PersonInfo';
 import ExerciseDetails from "./Exercise-details/ExerciseDetails"
 import Break from './Break/Break';
 import "./Information.css"
-import { addToLocal } from '../../../Utilities/LocalStorage';
+import { addToLocal, getFromLocal } from '../../../Utilities/LocalStorage';
 
 const Information = (props) => {
     const { exerciseTime } = props

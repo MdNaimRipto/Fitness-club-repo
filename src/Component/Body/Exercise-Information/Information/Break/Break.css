@@ -12,13 +12,15 @@
     align-items: center;
 }
 
-.break-time p {
+.break-time button {
     cursor: pointer;
     font-weight: 700;
     transition: 0.1s;
+    border: none;
+    margin-top: 10px;
 }
 
-.break-time p:hover {
+.break-time button:hover {
     color: orangered;
     text-decoration: underline;
 }

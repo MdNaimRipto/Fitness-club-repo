@@ -4,11 +4,11 @@ const addToLocal = (breakTime) => {
 }
 
 const getFromLocal = () => {
-    let time;
+    let time = {};
     const storedTime = localStorage.getItem("break time");
     if (storedTime) {
-        time = JSON.parse(storedTime)
-        return time;
+        time = storedTime;
     }
+    return time;
 }
 export { addToLocal, getFromLocal };
