@@ -1,0 +1,9 @@
+.header-icon {
+    color: orangered;
+    margin-right: 8px;
+}
+
+.header span {
+    color: orangered;
+    text-decoration: underline;
+}
