@@ -10,6 +10,7 @@
 
 .time p {
     margin-bottom: 18px;
+    text-align: center;
 }
 
 .activity-btn {
@@ -29,4 +30,20 @@
 .activity-btn:hover {
     background-color: #ffd4c4;
     color: orangered;
+}
+
+@media screen and (max-width:567px) {
+    .exercise-details {
+        margin-left: 0%;
+    }
+
+    .exercise-details h3 {
+        margin-left: 8%;
+    }
+
+    .activity-btn {
+        width: 90%;
+        margin: auto;
+        display: block;
+    }
 }

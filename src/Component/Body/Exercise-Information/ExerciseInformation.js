@@ -17,7 +17,7 @@ const ExerciseList = () => {
     }
     return (
         <div>
-            <h2>Select Today's Exercise...</h2>
+            <h2 className='list-title'>Select Today's Exercise...</h2>
             <div className='exercise-information'>
                 <div className='exercise-container'>
                     {

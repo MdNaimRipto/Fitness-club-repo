@@ -11,3 +11,9 @@
     color: orangered;
     text-decoration: underline;
 }
+
+@media screen and (max-width: 576px) {
+    .header {
+        text-align: center;
+    }
+}

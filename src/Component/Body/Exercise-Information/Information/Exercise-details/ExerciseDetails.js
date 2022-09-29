@@ -8,7 +8,6 @@ const ExerciseDetails = (props) => {
         brTime = br.breakTime;
     }
     const time = exerciseTime.reduce((p, c) => p + c.time, 0);
-    console.log(props.breakTime)
     return (
         <div className="exercise-details">
             <h3>Exercise Details</h3>

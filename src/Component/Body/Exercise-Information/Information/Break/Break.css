@@ -22,3 +22,13 @@
     color: orangered;
     text-decoration: underline;
 }
+
+@media screen and (max-width:567px) {
+    .break-container {
+        margin-left: 0%;
+    }
+
+    .break-container h3 {
+        margin-left: 8%;
+    }
+}
