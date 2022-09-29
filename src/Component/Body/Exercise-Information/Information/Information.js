@@ -7,11 +7,17 @@ import "./Information.css"
 const Information = (props) => {
     const { exerciseTime } = props
     const [breaks, setBreaks] = useState([]);
+    const [breakTime, setBreakTime] = useState([]);
     useEffect(() => {
         fetch("break.json")
             .then(res => res.json())
             .then(data => setBreaks(data))
-    }, [])
+    }, []);
+
+    const handleBreakTime = (time) => {
+        const newBreakTime = [...breakTime, time];
+        setBreakTime(newBreakTime);
+    }
     return (
         <div className='information-container'>
             <PersonInfo></PersonInfo>
@@ -19,11 +25,18 @@ const Information = (props) => {
                 <h3>Add a Break</h3>
                 <div className='break-time'>
                     {
-                        breaks.map(br => <Break key={br.id} br={br}></Break>)
+                        breaks.map(
+                            br => <Break
+                                key={br.id}
+                                br={br}
+                                handleBreakTime={handleBreakTime}></Break>)
                     }
                 </div>
             </div>
-            <ExerciseDetails exerciseTime={exerciseTime}></ExerciseDetails>
+            <ExerciseDetails
+                exerciseTime={exerciseTime}
+                breakTime={breakTime}
+            ></ExerciseDetails>
         </div>
     );
 };

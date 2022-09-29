@@ -4,10 +4,11 @@ import "./Break.css"
 
 
 const Break = (props) => {
-    const { breakTime } = props.br;
+    const { br, handleBreakTime } = props;
+    const { breakTime } = br;
     return (
         <div className='break-time'>
-            <p>{breakTime}s</p>
+            <p onClick={() => { handleBreakTime(br) }}>{breakTime}s</p>
         </div>
     );
 };
