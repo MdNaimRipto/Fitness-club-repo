@@ -1,0 +1,44 @@
+[
+    {
+        "id": "6334ff25f47ff256b46be820",
+        "img": "https://images.pexels.com/photos/11433027/pexels-photo-11433027.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "name": "Chest Press",
+        "age": "18-25",
+        "time": 45
+    },
+    {
+        "id": "6334ff25547cd74e6005e9eb",
+        "img": "https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "name": "Lifting",
+        "age": "22-26",
+        "time": 30
+    },
+    {
+        "id": "6334ff25d67a4e83fe8164af",
+        "img": "https://images.pexels.com/photos/2294361/pexels-photo-2294361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "name": "Push Up",
+        "age": "18-25",
+        "time": 30
+    },
+    {
+        "id": "6334ff259955e45d7c35efcf",
+        "img": "https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "name": "Jogging",
+        "age": "16-30",
+        "time": 60
+    },
+    {
+        "id": "6334ff25949b05e586c83eb9",
+        "img": "https://images.pexels.com/photos/2294403/pexels-photo-2294403.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "name": "Jumping",
+        "age": "16-30",
+        "time": 35
+    },
+    {
+        "id": "6334ff25b41969b6d3cff810",
+        "img": "https://images.pexels.com/photos/2011384/pexels-photo-2011384.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "name": "Pull Up",
+        "age": "22-26",
+        "time": 30
+    }
+]
