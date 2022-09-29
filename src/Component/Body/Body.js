@@ -1,14 +1,13 @@
-import ExerciseList from './Exercise-list/ExerciseList';
+import ExerciseInformation from './Exercise-Information/ExerciseInformation';
 import React from 'react';
-import Information from './Informations/Information';
 import "./Body.css"
 
 const Body = () => {
     return (
         <div className='body-container'>
-            <ExerciseList></ExerciseList>
+            <ExerciseInformation></ExerciseInformation>
             <div style={{ position: "relative" }}>
-                <Information></Information>
+
             </div>
         </div>
     );

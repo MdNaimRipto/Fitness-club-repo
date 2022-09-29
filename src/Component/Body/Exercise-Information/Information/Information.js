@@ -4,12 +4,13 @@ import ExerciseDetails from "./Exercise-details/ExerciseDetails"
 import Break from './Break/Break';
 import "./Information.css"
 
-const Information = () => {
+const Information = (props) => {
+    const { exerciseTime } = props
     return (
         <div className='information-container'>
             <PersonInfo></PersonInfo>
             <Break></Break>
-            <ExerciseDetails></ExerciseDetails>
+            <ExerciseDetails exerciseTime={exerciseTime}></ExerciseDetails>
         </div>
     );
 };
