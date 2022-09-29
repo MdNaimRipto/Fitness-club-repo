@@ -1,0 +1,23 @@
+.person-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.person-profile {
+    width: 22%;
+}
+
+.person-profile img {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+
+.person-info h3 {
+    margin: 0px;
+}
+
+.person-info p {
+    margin-top: 5px;
+}
