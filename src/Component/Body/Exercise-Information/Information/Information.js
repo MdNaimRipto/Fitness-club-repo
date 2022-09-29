@@ -3,7 +3,7 @@ import PersonInfo from './PersonInfo/PersonInfo';
 import ExerciseDetails from "./Exercise-details/ExerciseDetails"
 import Break from './Break/Break';
 import "./Information.css"
-// import { addToLocal } from '../../../Utilities/LocalStorage';
+import { addToLocal } from '../../../Utilities/LocalStorage';
 
 const Information = (props) => {
     const { exerciseTime } = props
@@ -18,7 +18,7 @@ const Information = (props) => {
     const handleBreakTime = (time) => {
         const newBreakTime = [...breakTime, time];
         setBreakTime(newBreakTime);
-        // addToLocal(time.breakTime);
+        addToLocal(time.breakTime);
     }
     return (
         <div className='information-container'>

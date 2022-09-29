@@ -2,3 +2,9 @@
     position: sticky;
     top: 50px;
 }
+
+@media screen and (max-width: 576px) {
+    .information-container {
+        margin-bottom: 25%;
+    }
+}

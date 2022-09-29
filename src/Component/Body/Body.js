@@ -6,9 +6,6 @@ const Body = () => {
     return (
         <div className='body-container'>
             <ExerciseInformation></ExerciseInformation>
-            <div style={{ position: "relative" }}>
-
-            </div>
         </div>
     );
 };
