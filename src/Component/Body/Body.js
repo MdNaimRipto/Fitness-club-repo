@@ -7,7 +7,9 @@ const Body = () => {
     return (
         <div className='body-container'>
             <ExerciseList></ExerciseList>
-            <Information></Information>
+            <div style={{ position: "relative" }}>
+                <Information></Information>
+            </div>
         </div>
     );
 };

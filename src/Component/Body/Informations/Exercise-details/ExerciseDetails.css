@@ -1,0 +1,32 @@
+.exercise-details {
+    margin-left: 12%;
+}
+
+.time {
+    font-weight: 700;
+    width: 80%;
+    margin: auto;
+}
+
+.time p {
+    margin-bottom: 18px;
+}
+
+.activity-btn {
+    width: 100%;
+    padding: 15px 0px;
+    background-color: orangered;
+    border: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.activity-btn:hover {
+    background-color: #ffd4c4;
+    color: orangered;
+}

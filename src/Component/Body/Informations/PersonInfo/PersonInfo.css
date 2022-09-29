@@ -2,8 +2,6 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    position: sticky;
-    top: 30px;
 }
 
 .person-profile {
