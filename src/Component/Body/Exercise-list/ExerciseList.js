@@ -11,7 +11,7 @@ const ExerciseList = () => {
     }, [])
     return (
         <div>
-            <h2> Fitness Club</h2>
+            <h2>Select Today's Exercise...</h2>
             <div className='exercise-container'>
                 {
                     exercises.map(exercise => <Exercise key={exercise.id} exercise={exercise}></Exercise>)

@@ -1,0 +1,37 @@
+.exercise {
+    margin: 30px;
+    border-radius: 8px;
+}
+
+.exercise img {
+    width: 100%;
+    border-radius: 8px 9px 0px 0px;
+}
+
+.info {
+    margin-left: 10px;
+}
+
+.info p {
+    margin: 0px;
+    margin-bottom: 8px;
+}
+
+.add-btn {
+    width: 100%;
+    padding: 12px 0px;
+    margin-top: 12px;
+    border: none;
+    border-radius: 0px 0px 8px 8px;
+    background-color: orangered;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.add-btn:hover {
+    background-color: #ffdfd3;
+    color: orangered;
+}
