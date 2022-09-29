@@ -3,7 +3,6 @@ import "./ExerciseDetails.css"
 
 const ExerciseDetails = (props) => {
     const { exerciseTime } = props;
-    console.log(exerciseTime);
     const time = exerciseTime.reduce((p, c) => p + c.time, 0)
     return (
         <div className="exercise-details">
