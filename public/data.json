@@ -1,7 +1,7 @@
 [
     {
         "id": "6334ff25f47ff256b46be820",
-        "img": "https://images.pexels.com/photos/11433027/pexels-photo-11433027.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "img": "https://images.pexels.com/photos/3888104/pexels-photo-3888104.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "name": "Chest Press",
         "age": "18-25",
         "time": 45
@@ -23,7 +23,7 @@
     {
         "id": "6334ff259955e45d7c35efcf",
         "img": "https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "name": "Jogging",
+        "name": "Running",
         "age": "16-30",
         "time": 60
     },
@@ -36,7 +36,7 @@
     },
     {
         "id": "6334ff25b41969b6d3cff810",
-        "img": "https://images.pexels.com/photos/2011384/pexels-photo-2011384.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "img": "https://images.pexels.com/photos/4162489/pexels-photo-4162489.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "name": "Pull Up",
         "age": "22-26",
         "time": 30
