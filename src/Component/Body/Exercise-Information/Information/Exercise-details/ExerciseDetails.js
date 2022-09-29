@@ -21,7 +21,7 @@ const ExerciseDetails = (props) => {
                 <h3>Exercise Details</h3>
                 <div className='time'>
                     <p>Exercise Time: {time} second</p>
-                    <p>Break Time: {brTime} second</p>
+                    <p>Break Time: {brTime || localStorage.getItem("break time")} second</p>
                 </div>
                 <button onClick={showToast} className='activity-btn'>Activity Completed</button>
             </div>
