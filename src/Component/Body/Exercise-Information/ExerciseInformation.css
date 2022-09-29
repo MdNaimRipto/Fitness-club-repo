@@ -11,7 +11,8 @@
 
 @media screen and (max-width:576px) {
     .exercise-information {
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column-reverse;
     }
 
     .exercise-container {

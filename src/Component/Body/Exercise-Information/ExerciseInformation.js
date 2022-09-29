@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Exercise from './Exercise/Exercise';
 import Information from './Information/Information';
 import "./ExerciseInformation.css"
+import Blog from './Blog/Blog';
 
 const ExerciseList = () => {
     const [exercises, setExercises] = useState([]);
@@ -17,22 +18,25 @@ const ExerciseList = () => {
     }
     return (
         <div>
-            <h2 className='list-title'>Select Today's Exercise...</h2>
             <div className='exercise-information'>
-                <div className='exercise-container'>
-                    {
-                        exercises.map(exercise =>
-                            <Exercise
-                                key={exercise.id}
-                                exercise={exercise}
-                                handleExerciseTime={handleExerciseTime}
-                            ></Exercise>)
-                    }
+                <div>
+                    <h2 className='list-title'>Select Today's Exercise...</h2>
+                    <div className='exercise-container'>
+                        {
+                            exercises.map(exercise =>
+                                <Exercise
+                                    key={exercise.id}
+                                    exercise={exercise}
+                                    handleExerciseTime={handleExerciseTime}
+                                ></Exercise>)
+                        }
+                    </div>
                 </div>
                 <div>
                     <Information exerciseTime={exerciseTime}></Information>
                 </div>
             </div>
+            <Blog></Blog>
         </div>
     );
 };

@@ -1,0 +1,18 @@
+.blog h2 {
+    margin-left: 15px;
+}
+
+.blog-info {
+    margin-bottom: 10%;
+}
+
+.blog-info h3 {
+    width: 92%;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+.blog-info p {
+    width: 90%;
+    margin: auto;
+}
